@@ -8,21 +8,79 @@
 
   <body>
     <header>
-      Order a Smoothiegram There's no better way to show a loved one you care than with a
-      Smoothiegram! Each Smoothiegram comes with a custom message printed on high-quality cardstock
+      <h1>Order a Smoothiegram</h1>
+      <p>There's no better way to show a loved one you care than with a
+      Smoothiegram!</p>
+      <p>
+        Each Smoothiegram comes with a custom message printed on high-quality cardstock
       and your choice of a premium, hand-crafted smoothie.
+    </p>
     </header>
 
     <main>
       <section>
-        Smoothie Options Choose from one of these smoothies. Flavor Price Super Strawberries
-        Delicious $1,200.00 White Grape Ranger $400.00 Blueberry Blast $1,750.00
+        <h2>Smoothie Options</h2>
+        <p>Choose from one of these smoothies.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Flavor</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Super Strawberries Delicious</td>
+              <td>$1,200.00</td>
+            </tr>
+            <tr>
+              <td>White Grape Ranger</td>
+              <td>$400.00</td>
+            </tr>
+            <tr>
+              <td>Blueberry Blast</td>
+              <td>$1,750.00</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
       <section>
-        Order Form Your name Who are we sending this to? Choose a smoothie Please choose an option
-        Super Strawberries Delicious White Grape Ranger Blueberry Blast When should we deliver? As
-        soon as possible Morning Afternoon Enter your message Subscribe to our newsletter? Submit
+        <h2>Order Form</h2>
+        <form>
+          <label>Your name</label>
+          <input type="text" name="sender" />
+
+          <label>Who are we sending this to?</label>
+          <input type="text" name="recipient" />
+          
+          <label>Choose a smoothie</label>
+          <select name="smoothie">
+            <option value="">Please choose an option</option>
+            <option value="super strawberry delicious">Super Strawberries Delicious</option>
+            <option value="white grape ranger">White Grape Ranger</option>
+            <option value="blueberry blast">Blueberry Blast</option>
+          </select>
+          
+          <span>When should we deliver?</span>
+          
+          <input type="radio" name="delivery-time" value="asap"/>
+          <label>As soon as possible</label>
+          
+          <input type="radio" name="delivery-time" value="am"/>
+          <label>Morning</label>
+
+          <input type="radio" name="delivery-time" value="pm"/>
+          <label>Afternoon</label>
+          
+          <label>Enter your message</label>
+          <textarea name="message"></textarea>
+          
+          <label>Subscribe to our newsletter?</label>
+          <input type="checkbox" name="Subscribe" value="yes" checked />
+          
+          <button type="submit">Submit</button>
+        </form>
       </section>
     </main>
   </body>

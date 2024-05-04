@@ -1,0 +1,38 @@
+Order a Smoothiegram
+
+There's no better way to show a loved one you care than with a Smoothiegram!
+
+Each Smoothiegram comes with a custom message printed on high-quality cardstock
+and your choice of a premium, hand-crafted smoothie.
+
+Smoothie Options
+
+Choose from one of these smoothies.
+
+Flavor Price
+Super Strawberries Delicious $1,200.00
+White Grape Ranger $400.00
+Blueberry Blast $1,750.00
+
+Order Form
+
+Your name
+
+Who are we sending this to?
+
+Choose a smoothie
+Please choose an option
+Super Strawberries Delicious
+White Grape Ranger
+Blueberry Blast
+
+When should we deliver?
+As soon as possible
+Morning
+Afternoon
+
+Enter your message
+
+Subscribe to our newsletter?
+
+Submit

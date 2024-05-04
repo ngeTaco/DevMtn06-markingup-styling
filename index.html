@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order a Smoothiegram!</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <header>
       <h1>Order a Smoothiegram</h1>
-      <p>There's no better way to show a loved one you care than with a
+      <p class="lead">There's no better way to show a loved one you care than with a
       Smoothiegram!</p>
       <p>
         Each Smoothiegram comes with a custom message printed on high-quality cardstock
@@ -31,15 +32,15 @@
           <tbody>
             <tr>
               <td>Super Strawberries Delicious</td>
-              <td>$1,200.00</td>
+              <td class="price">$1,200.00</td>
             </tr>
             <tr>
               <td>White Grape Ranger</td>
-              <td>$400.00</td>
+              <td class="price">$400.00</td>
             </tr>
             <tr>
               <td>Blueberry Blast</td>
-              <td>$1,750.00</td>
+              <td class="price">$1,750.00</td>
             </tr>
           </tbody>
         </table>
@@ -49,18 +50,24 @@
         <h2>Order Form</h2>
         <form>
           <label>Your name</label>
+          <br>
           <input type="text" name="sender" />
-
+          <div class="spacer"></div>
+          
           <label>Who are we sending this to?</label>
+          <br>
           <input type="text" name="recipient" />
+          <div class="spacer"></div>
           
           <label>Choose a smoothie</label>
+          <br>
           <select name="smoothie">
             <option value="">Please choose an option</option>
             <option value="super strawberry delicious">Super Strawberries Delicious</option>
             <option value="white grape ranger">White Grape Ranger</option>
             <option value="blueberry blast">Blueberry Blast</option>
           </select>
+          <div class="spacer"></div>
           
           <span>When should we deliver?</span>
           
@@ -69,15 +76,18 @@
           
           <input type="radio" name="delivery-time" value="am"/>
           <label>Morning</label>
-
+          
           <input type="radio" name="delivery-time" value="pm"/>
           <label>Afternoon</label>
+          <div class="spacer"></div>
           
           <label>Enter your message</label>
-          <textarea name="message"></textarea>
           
+          <textarea name="message"></textarea>
+          <br>
           <label>Subscribe to our newsletter?</label>
           <input type="checkbox" name="Subscribe" value="yes" checked />
+          <div class="spacer"></div>
           
           <button type="submit">Submit</button>
         </form>
